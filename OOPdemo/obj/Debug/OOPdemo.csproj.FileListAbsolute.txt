@@ -1,0 +1,9 @@
+D:\MyRepository\OOPdemo\OOPdemo\bin\Debug\OOPdemo.exe.config
+D:\MyRepository\OOPdemo\OOPdemo\bin\Debug\OOPdemo.exe
+D:\MyRepository\OOPdemo\OOPdemo\bin\Debug\OOPdemo.pdb
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.csprojResolveAssemblyReference.cache
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.Form1.resources
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.Properties.Resources.resources
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.csproj.GenerateResource.Cache
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.exe
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.pdb
