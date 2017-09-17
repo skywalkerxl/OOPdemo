@@ -19,9 +19,9 @@ namespace OOPdemo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cat cat = new Cat("Tom", 3);
-            cat.ShoutNum = 5;
-            MessageBox.Show(cat.Shout());
+            Sheep sheep = new Sheep("羊咩咩");
+           
+            MessageBox.Show(sheep.Shout());
         }
         
         
@@ -59,12 +59,12 @@ namespace OOPdemo
 
                 for(int i = 0; i < shoutNum; i++)
                 {
-                    result += "喵";
+                    result += getShoutSount() + "！";
                 }
 
-                return "我的名字叫" + name + result;
+                return "我的名字叫" + name + " " + result;
             }
-            public virtual string getShoutCount()
+            public virtual string getShoutSount()
             {
                 return "";
             }
@@ -74,17 +74,12 @@ namespace OOPdemo
         class Dog : Animal
         {
             public Dog() : base() { }
+            
             public Dog(string name) : base(name) { }
-            public string Shout()
-            {
-                string result = "";
-                
-                for(int i = 0; i< shoutNum; i++)
-                {
-                    result += "汪";
-                }
 
-                return "I am a single dog " + name + result;
+            public override string getShoutSount()
+            {
+                return "汪";
             }
         }
 
@@ -92,18 +87,26 @@ namespace OOPdemo
         class Cat:Animal
         {
             public Cat() : base() { }
+            
             public Cat(string name) : base(name) { }
-            public string Shout()
-            {
-                string result = "";
-                for (int i = 0; i < shoutNum; i++)
-                {
-                    result += "喵";
-                }
 
-                return "我的名字叫" + name + result;
+            public override string getShoutSount()
+            {
+                return "喵";
             }
         }
 
+        // 我们还可以实现Sheep类
+        class Sheep : Animal
+        {
+            public Sheep() : base() { }
+
+            public Sheep(string name) : base(name) { }
+
+            public override string getShoutSount()
+            {
+                return "咩";
+            }
+        }
     }
 }
