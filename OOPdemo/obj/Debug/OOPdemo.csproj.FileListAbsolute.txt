@@ -7,3 +7,5 @@ D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.Properties.Resources.resources
 D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.csproj.GenerateResource.Cache
 D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.exe
 D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.pdb
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.inherits.resources
+D:\MyRepository\OOPdemo\OOPdemo\obj\Debug\OOPdemo.Polymorphism.resources

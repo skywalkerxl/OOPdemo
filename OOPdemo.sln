@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPdemo", "OOPdemo\OOPdemo.csproj", "{DB5CC922-39C7-4E83-98A2-499091085DF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP_Python", "OOP_Python\OOP_Python.csproj", "{DC30D67B-3305-48D6-8DB6-1DD81335F30D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DB5CC922-39C7-4E83-98A2-499091085DF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB5CC922-39C7-4E83-98A2-499091085DF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB5CC922-39C7-4E83-98A2-499091085DF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC30D67B-3305-48D6-8DB6-1DD81335F30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30D67B-3305-48D6-8DB6-1DD81335F30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC30D67B-3305-48D6-8DB6-1DD81335F30D}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC30D67B-3305-48D6-8DB6-1DD81335F30D}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

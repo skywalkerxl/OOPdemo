@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DC30D67B-3305-48D6-8DB6-1DD81335F30D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OOP_Python</RootNamespace>
+    <AssemblyName>OOP_Python</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="classDemo.py" />
+    <Content Include="inherits.py" />
+    <Content Include="Polymorphism.py" />
+    <Content Include="PythonTools.html" />
+    <Content Include="vslogo.png" />
+  </ItemGroup>
+</Project>
